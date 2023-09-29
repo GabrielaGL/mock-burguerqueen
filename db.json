@@ -88,6 +88,13 @@
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "name": "Sandwich",
+      "price": 10,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/sandwich.png",
+      "type": "Desayuno",
+      "id": 4
     }
   ],
   "users": [
@@ -102,6 +109,15 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "ari.ariana_r@burguerqueen.com",
+      "password": "$2a$10$SfvZY2OI73swRDguxDNPduwetqm0v4xKOdP9H.oq0yEg9lTxiJyWm",
+      "nickname": "Ari",
+      "name": "Ariana R",
+      "role": "admin",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-ari.png",
+      "id": 3
     }
   ]
 }
