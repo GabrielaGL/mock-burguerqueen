@@ -1,115 +1,64 @@
 {
-  "orders": [
-    {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
-      "products": [
-        {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
-    }
-  ],
+  "orders": [],
   "products": [
-    {
-      "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "id": 2,
-      "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
     {
       "name": "Sandwich",
       "price": 10,
-      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/sandwich.png",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/sandwich.png",
       "type": "Desayuno",
       "id": 4
+    },
+    {
+      "name": "Café Americano",
+      "price": 5,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/american-coffe.png",
+      "type": "Desayuno",
+      "id": 5
+    },
+    {
+      "name": "Jugo de Frutas",
+      "price": 7,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/fruit-juice.png",
+      "type": "Desayuno",
+      "id": 6
+    },
+    {
+      "name": "Café con Leche",
+      "price": 7,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/latte.png",
+      "type": "Desayuno",
+      "id": 7
+    },
+    {
+      "name": "Hamburguesa",
+      "price": 10,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/hamburguer.png",
+      "type": "Comida",
+      "id": 8
+    },
+    {
+      "name": "Papas Fritas",
+      "price": 5,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/french-fries.png",
+      "type": "Comida",
+      "id": 9
+    },
+    {
+      "name": "Soda",
+      "price": 7,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/soda.png",
+      "type": "Comida",
+      "id": 10
+    },
+    {
+      "name": "Agua",
+      "price": 7,
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/water.png",
+      "type": "Comida",
+      "id": 11
     }
   ],
   "users": [
-    {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
-      "id": 1
-    },
-    {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
-      "id": 2
-    },
     {
       "email": "ari.ariana_r@burguerqueen.com",
       "password": "$2a$10$SfvZY2OI73swRDguxDNPduwetqm0v4xKOdP9H.oq0yEg9lTxiJyWm",
@@ -118,6 +67,60 @@
       "role": "admin",
       "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-ari.png",
       "id": 3
+    },
+    {
+      "email": "mar.mariana_g@burguerqueen.com",
+      "password": "$2a$10$1TqOEwNCQz6vp2tRdH0dg.7erDzgNej.y1U9i1ZkuCKbdmy9a.4aW",
+      "nickname": "Mar",
+      "name": "Mariana G",
+      "role": "waitress",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-mar.png",
+      "id": 4
+    },
+    {
+      "email": "andy.andre_d@burgerqueen.com",
+      "password": "$2a$10$WBXC.owY8BF1Ll/feR.yvOCp4/WF3CuHWSkF00VT9bu13DshB11d2",
+      "nickname": "Andy",
+      "name": "Andre D",
+      "role": "waitress",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-andy.png",
+      "id": 5
+    },
+    {
+      "email": "lisa.alicia_m@burguerqueen.com",
+      "password": "$2a$10$1jlhmqf4WTzDpXzzm9JcNO5lAImQRzoW8qRVC8/8YLR80r8lft8.W",
+      "nickname": "Lisa",
+      "name": "Alicia M",
+      "role": "waitress",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-lisa.png",
+      "id": 6
+    },
+    {
+      "email": "arturo.arturo_h@burgerqueen.com",
+      "password": "$2a$10$mV498eHjZ9sR73abGb44DOZd3bZ9XS1IKh/gekezLKFlzf9lBWsS2",
+      "nickname": "Arturo",
+      "name": "Arturo H",
+      "role": "chef",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-arturo.png",
+      "id": 7
+    },
+    {
+      "email": "robin.roberto_d@burguerqueen.com",
+      "password": "$2a$10$UlbZYMdwBm0Bv0xsk7..i.CVVyWrsEP48BYUJ8T3d3iNjMLdN0Fr2",
+      "nickname": "Robin",
+      "name": "Roberto D",
+      "role": "waitress",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-robin.png",
+      "id": 8
+    },
+    {
+      "email": "ana.anna_l@burguerqueen.com",
+      "password": "$2a$10$nv7mY2tvVuJNFOHtC74EIOn5etfiDQ3OGBbV/zuUfaS83YmkmJH1O",
+      "nickname": "Ani",
+      "name": "Anna L",
+      "role": "chef",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-ana.png",
+      "id": 9
     }
   ]
 }
