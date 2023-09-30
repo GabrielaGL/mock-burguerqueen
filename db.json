@@ -112,6 +112,15 @@
       "role": "chef",
       "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-ana.png",
       "id": 9
+    },
+    {
+      "email": "ari.ariana_r@burguerqueen.com",
+      "password": "$2a$10$CG.e/sZr6uhvII.Qs9ovx.jymuS4LqDys6Y/ola1F..OLIdFLJxtu",
+      "nickname": "Ari",
+      "name": "Ariana R",
+      "role": "admin",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-ari.png",
+      "id": 10
     }
   ]
 }
