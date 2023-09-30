@@ -11,7 +11,7 @@
     {
       "name": "Café Americano",
       "price": 5,
-      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/american-coffe.png",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/american-coffee.png",
       "type": "Desayuno",
       "id": 5
     },
@@ -59,15 +59,6 @@
     }
   ],
   "users": [
-    {
-      "email": "ari.ariana_r@burguerqueen.com",
-      "password": "$2a$10$SfvZY2OI73swRDguxDNPduwetqm0v4xKOdP9H.oq0yEg9lTxiJyWm",
-      "nickname": "Ari",
-      "name": "Ariana R",
-      "role": "admin",
-      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-ari.png",
-      "id": 3
-    },
     {
       "email": "mar.mariana_g@burguerqueen.com",
       "password": "$2a$10$1TqOEwNCQz6vp2tRdH0dg.7erDzgNej.y1U9i1ZkuCKbdmy9a.4aW",
