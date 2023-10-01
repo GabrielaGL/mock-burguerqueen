@@ -1,5 +1,90 @@
 {
-  "orders": [],
+  "orders": [
+    {
+      "table": "3",
+      "client": "Luz S",
+      "products": [
+        {
+          "name": "Sandwich",
+          "price": 10,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/sandwich.png",
+          "type": "Desayuno",
+          "id": 4,
+          "qty": 6
+        },
+        {
+          "name": "Café Americano",
+          "price": 5,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/american-coffee.png",
+          "type": "Desayuno",
+          "id": 5,
+          "qty": 3
+        },
+        {
+          "name": "Jugo de Frutas",
+          "price": 7,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/fruit-juice.png",
+          "type": "Desayuno",
+          "id": 6,
+          "qty": 2
+        },
+        {
+          "name": "Café con Leche",
+          "price": 7,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/latte.png",
+          "type": "Desayuno",
+          "id": 7,
+          "qty": 1
+        }
+      ],
+      "status": "ready",
+      "dataEntry": "10/1/23, 3:14 PM",
+      "dateProcessed": "",
+      "id": 1
+    },
+    {
+      "table": "2",
+      "client": "Fer G",
+      "products": [
+        {
+          "name": "Hamburguesa",
+          "price": 10,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/hamburguer.png",
+          "type": "Comida",
+          "id": 8,
+          "qty": 3
+        },
+        {
+          "name": "Papas Fritas",
+          "price": 5,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/french-fries.png",
+          "type": "Comida",
+          "id": 9,
+          "qty": 2
+        },
+        {
+          "name": "Agua",
+          "price": 7,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/water.png",
+          "type": "Comida",
+          "id": 11,
+          "qty": 1
+        },
+        {
+          "name": "Soda",
+          "price": 7,
+          "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/products/soda.png",
+          "type": "Comida",
+          "id": 10,
+          "qty": 2
+        }
+      ],
+      "status": "pending",
+      "dataEntry": "10/1/23, 3:28 PM",
+      "dateProcessed": "",
+      "id": 2
+    }
+  ],
   "products": [
     {
       "name": "Sandwich",
@@ -60,15 +145,6 @@
   ],
   "users": [
     {
-      "email": "mar.mariana_g@burguerqueen.com",
-      "password": "$2a$10$1TqOEwNCQz6vp2tRdH0dg.7erDzgNej.y1U9i1ZkuCKbdmy9a.4aW",
-      "nickname": "Mar",
-      "name": "Mariana G",
-      "role": "waitress",
-      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-mar.png",
-      "id": 4
-    },
-    {
       "email": "andy.andre_d@burgerqueen.com",
       "password": "$2a$10$WBXC.owY8BF1Ll/feR.yvOCp4/WF3CuHWSkF00VT9bu13DshB11d2",
       "nickname": "Andy",
@@ -121,6 +197,15 @@
       "role": "admin",
       "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-ari.png",
       "id": 10
+    },
+    {
+      "email": "mar.mariana_g@burguerqueen.com",
+      "password": "$2a$10$oWh40JXIaEodInvZKMQRD.dJ1RWVP70i5haq3LkXtt8vqC8xP0O4e",
+      "nickname": "Mar",
+      "name": "Mariana G",
+      "role": "waitress",
+      "image": "https://raw.githubusercontent.com/GabrielaGL/burguerqueen-api-client/main/burguerQueen/src/assets/images/workers/img-mar.png",
+      "id": 11
     }
   ]
 }
